@@ -9,3 +9,6 @@ Neflify 주소 : https://googlewebsitehtmlonly.netlify.app/
 Neflify 주소 : https://googlewebsitewithcss.netlify.app/
 ### chapter5 HTML을 좀 더 쉽게 움직이는 방법
 Neflify 주소 : https://pracflexbox.netlify.app/
+### chapter6 Spotify 웹사이트 만들기
+Neflify 주소 : 
+
