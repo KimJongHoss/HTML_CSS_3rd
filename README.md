@@ -12,4 +12,4 @@ Neflify 주소 : https://pracflexbox.netlify.app/
 ### chapter6 Spotify 웹사이트 만들기
 Neflify 주소 : https://spotifyprac.netlify.app/
 ### chapter7 반응형 웹사이트 만들기 bootstrap
-Neflify 주소 : 
+Neflify 주소 : https://noonaartmuseum.netlify.app/
