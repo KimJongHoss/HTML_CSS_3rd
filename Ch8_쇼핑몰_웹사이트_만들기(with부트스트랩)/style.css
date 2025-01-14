@@ -1,0 +1,91 @@
+body {
+    font-family: "Louis Vuitton Web", "Louis Vuitton Web Fallback", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+.btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover {
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+}
+
+.text-center{
+    color: chocolate;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.main-a:link {
+    color : chocolate;
+  }
+.main-a:visited {
+    color : chocolate;
+  }
+.main-a:hover {
+    color : chocolate;
+  }
+.main-a:active {
+    color : chocolate;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+  }
+
+  .first-line {
+    border-bottom: 1px solid #392d23;
+  }
+
+  .second-line a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .third-line {
+    display: none;
+    text-align: center;
+  }
+
+  @media screen and (max-width:48rem){
+    .first-line {
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width:48rem){
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+  }
+
+  @media screen and (max-width:48rem){
+    .third-line {
+        display: block;
+    }
+  }
+
+#upButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    display: none; /* 기본적으로 숨김 */
+}
+
+#upButton:hover {
+    background-color: #0056b3; /* hover 상태에서 색상 변경 */
+}
