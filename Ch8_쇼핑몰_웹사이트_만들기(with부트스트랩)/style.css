@@ -53,24 +53,25 @@ body {
     text-align: center;
   }
 
-  @media screen and (max-width:48rem){
-    .first-line {
-        text-align: center;
+  @media screen and (max-width: 48rem) {
+    .second-line .row {
+        display: flex;
+        flex-direction: column; /* 컬럼들을 세로로 정렬 */
+        text-align: center; /* 가운데 정렬 */
     }
-  }
-
-  @media screen and (max-width:48rem){
-    .second-line {
-        padding-left: 2rem;
-        padding-right: 2rem;
+    .second-line .col {
+        margin-bottom: 10px; /* 항목 간격 추가 */
     }
-  }
-
-  @media screen and (max-width:48rem){
     .third-line {
-        display: block;
+        text-align: center; /* 텍스트 중앙 정렬 */
+        margin-top: 20px; /* 위아래 여백 추가 */
     }
-  }
+    .flag-img {
+        display: inline-block;
+        vertical-align: middle; /* 플래그와 텍스트 정렬 */
+        margin-right: 5px; /* 플래그와 텍스트 간격 추가 */
+    }
+}
 
 #upButton {
     position: fixed;
